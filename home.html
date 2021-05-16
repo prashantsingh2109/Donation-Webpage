@@ -1,0 +1,170 @@
+<!-- HOME PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("bg.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  /* background: #1abc9c; */
+  color: white;
+}
+.header h1 {
+    padding-top: 26px;
+  font-size: 40px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: gray;
+  opacity: 0.5;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: rgb(14, 13, 13);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+
+}
+.navbar a.right {
+  float: right;
+}
+.navbar a:hover {
+  background-color: rgb(247, 29, 29);
+  color: black;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(10, 10, 10);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0ec9c9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(248, 50, 0);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+  color:#ddd
+}
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  /* background-color: white; */
+  padding: 20px;
+  color: #ddd;
+}
+
+.footer {
+  padding: 6px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1> ORPHANAGE SUPPORT SERVICE</h1>
+</div>
+<div class="navbar" style="text-align:right">
+   <a href="contact_us.html"><b>Contact us</b></a>
+   <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H9yzDQOtoxI0wU" async> </script> </form>
+  </div>
+<div class="row">
+  <div class="side">
+    <p><strong>ABOUT US :</strong></p>
+    <p style="font-size:20px">⚫ <i> Your contribution has the power to uplift children in dire situations. We’re working towards a nation where its children live a secure <br>life, full of opportunities for growth and development.</p></i>
+    <p style="font-size:20px">⚫ <i> A small amount can change the life of a child; through education, nutrition, and basic protection, children can lead normal lives. The <br> adjacent graph is a representation of how we have utilised your donations</p></i>
+    <p style="font-size:20px">⚫ <i> Our campaigns have only been successful because of your help and support. We continue to seek your support which is crucial to <br> bring about social change in the lives of children and their communities.</p></i>
+    <p style="font-size:20px">⚫ <i> THE RESULTS - <br>•Enhanced child protection<br>
+	                                               •Refined health & nutrition<br>
+												   •Improved Resilience<br>
+												   •Alleviation of child poverty<br>
+												   •Better access to quality education<br></p></i>
+    <p style="font-size:20px">⚫ <i> Save the Children will never intentionally share your email addresses, phone numbers or financial information.</p></i>
+    <p style="font-size:20px">⚫ <i> We avail the services of third parties to provide donation facilities by the means of cheque, credit/debit card payments or electronic<br> fund transfers. </p></i>
+    <p style="font-size:20px">⚫ <i> Undertaking various initiatives in the field of education, health & nutrition, and child protection, we are constantly on the lookout for <br> passionate individuals driven to make a difference in the lives of underprivileged children. </p></p></i>   <!-- <p>>> Please feel free to reach out to us to know more ☻</p> -->
+
+  </div>
+</div>
+<div style="text-align:center">
+<form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H9yzDQOtoxI0wU" async> </script> </form>
+</div>
+
+<div class="footer">
+  <h2>The Spark Foundation Project</h2>
+  <p style="font-size: medium;">PRASHANT SINGH</p>
+</div>
+</body>
+</html>
